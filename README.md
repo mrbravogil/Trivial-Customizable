@@ -1,4 +1,4 @@
-# 02-Trivial-Customizable
+# Trivial Customizable
 
 Este proyecto es una aplicación web interactiva tipo Trivial customizable desarrollada como parte de nuestras prácticas de final de ciclo. Está orientada a centros educativos, permitiendo a los estudiantes jugar por equipos, responder preguntas personalizadas y generar informes útiles para docentes.
 
