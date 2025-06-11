@@ -1,0 +1,49 @@
+# 🚀 Logs y depuración
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+debug.log
+*.stacktrace
+
+# 🚀 Módulos y archivos generados
+node_modules/
+dist/
+dist-ssr/
+build/
+coverage/      # Archivos de cobertura de tests
+*.local
+*.cache
+.cache-loader
+.parcel-cache
+.next/
+/backend/.env
+.env
+
+# 🚀 Archivos sensibles
+.env           # Variables de entorno (API keys, DB, etc.)
+.env.local
+.env.development
+.env.test
+.env.production
+.prisma/*      # Prisma migrations (opcional si quieres ignorarlas)
+!/prisma/schema.prisma  # Excepción para el schema de Prisma
+*.env
+
+# 🚀 Configuración de editores y sistema
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Thumbs.db
+
+# 🚀 Tailwind y PostCSS
+postcss.config.js
+tailwind.config.js

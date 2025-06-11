@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-shadow-light {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.text-shadow-medium {
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+.text-shadow-heavy {
+  text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.8);
+}
+
+.text-border {
+  text-shadow:
+    -3px -3px 3px rgba(0, 0, 0, 0.8),
+    3px 3px 3px rgba(0, 0, 0, 0.8);
+}
+
+body { /*elimina scroll*/
+  overflow: hidden;
+}
+/*Se pone . delante para indicar que lo que sigue es una clase y no una etiqueta html
+
+En el borde son 2 línea porque se simula un borde alrededor de las letras con sombras.
+La 1ª línea hace que el borde se mueva hacía arriba e izquierda (por el negativo del eje X y el Y)
+La 2ª línea es para el desplazamiento en la dirección opuesta (abajo derecha).
+
+Lo pongo en css y no en tailwind.config porque no lo he conseguido*/
+
+
+@font-face {
+  font-family: 'Milford Condensed';
+  src: url('/src/assets/fonts/MilfordCondensed.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Milford Condensed';
+  src: url('/src/assets/fonts/MilfordCondensed.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Balmoral';
+  src: url('/fonts/Balmoral.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BalmoralPlain';
+  src: url('../assets/fonts/BalmoralPlainRegular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@layer components {
+  .alineacion {
+    @apply flex items-center justify-center;
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: personalizada;
+    src: url(/assets/fonts/MILF____.TTF);
+  }
+  
+}
+
+.perspective {
+  perspective: 2000px;
+}
+
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+

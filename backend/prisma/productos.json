@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "nombre": "Leticia",
+    "foto": "1",
+    "activo": true,
+    "partidaId": "1"
+  },
+  {
+    "id": 2,
+    "nombre": "María Rosa",
+    "foto": "2",
+    "activo": true,
+    "partidaId": "2"
+  },
+  {
+    "id": 3,
+    "nombre": "Georgina",
+    "foto": "3",
+    "activo": true,
+    "partidaId": "3"
+  },
+  {
+    "id": 4,
+    "nombre": "Paulino",
+    "foto": "4",
+    "activo": true,
+    "partidaId": "4"
+  },
+  {
+    "id": 5,
+    "nombre": "Daniel",
+    "foto": "5",
+    "activo": true,
+    "partidaId": "5"
+  },
+  {
+    "id": 6,
+    "nombre": "Jose Manuel",
+    "foto": "6",
+    "activo": true,
+    "partidaId": "6"
+  }
+]

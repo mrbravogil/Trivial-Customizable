@@ -1,0 +1,16 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M196.715 176.308V176.308V23.407C196.715 12.1362 187.579 3 176.308 3H23.407C12.1361 3 3 12.1362 3 23.407V176.307C3 187.578 12.1361 196.714 23.407 196.714H176.307C187.578 196.714 196.714 187.578 196.715 176.308Z" fill="url(#paint0_linear_379_1059)" stroke="black" stroke-width="6"/>
+<path d="M100.015 117.03C109.412 117.03 117.03 109.412 117.03 100.015C117.03 90.6179 109.412 83 100.015 83C90.6179 83 83 90.6179 83 100.015C83 109.412 90.6179 117.03 100.015 117.03Z" fill="url(#paint1_radial_379_1059)"/>
+<defs>
+<linearGradient id="paint0_linear_379_1059" x1="11.098" y1="11.0982" x2="188.616" y2="188.616" gradientUnits="userSpaceOnUse">
+<stop offset="0.00039279" stop-color="#333333"/>
+<stop offset="0.00049279" stop-color="#252525"/>
+<stop offset="0.00059279" stop-color="#2F2F2F"/>
+<stop offset="0.00069279" stop-color="#131313"/>
+<stop offset="0.00079279" stop-color="white"/>
+</linearGradient>
+<radialGradient id="paint1_radial_379_1059" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(105.323 109.393) scale(22.793 22.793)">
+<stop offset="1" stop-color="#565656"/>
+</radialGradient>
+</defs>
+</svg>
